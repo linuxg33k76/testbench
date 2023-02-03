@@ -14,6 +14,6 @@ dis = distance.great_circle(center_point_tuple, test_point_tuple).feet #WGS 84 E
 print(f'Distance: {dis:0.2f} ft')
 
 if dis <= radius:
-    print("{} point is inside the {} ft radius from {} coordinate".format(test_point_tuple, user_feet, center_point_tuple))
+    print(f'{test_point_tuple} point is inside the {user_feet} ft radius from {center_point_tuple} coordinate')
 else:
-    print("{} point is outside the {} ft radius from {} coordinate".format(test_point_tuple, user_feet, center_point_tuple))
+    print(f'{test_point_tuple} point is outside the {user_feet} ft radius from {center_point_tuple} coordinate')
