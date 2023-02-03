@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #! /usr/bin/env python3
+=======
+>>>>>>> dfc329bd4b6cac7acf5210cb183904d93db319fb
 
 from geopy import distance
 
